@@ -1,7 +1,8 @@
-# 921csbypass
+# 935csbypass
 
-fixed in 9.3.
+fixed in 10.
 
 drop this code into any app and it should allow you to load arbitrary code in it.
 
-found indipendently by multiple parties (mbazaliy and eiz)
+
+my own bug this time
