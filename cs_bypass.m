@@ -11,10 +11,7 @@
 
 kern_return_t IOSurfaceAcceleratorCreate(CFAllocatorRef allocator, int type, void **outAccelerator);
 kern_return_t IOSurfaceAcceleratorTransferSurface(void* accelerator, IOSurfaceRef source, IOSurfaceRef dest, CFDictionaryRef, void *);
-#undef PAGE_SIZE
-#undef PAGE_MASK
-#define PAGE_SIZE 0x4000
-#define PAGE_MASK 0x3FFF
+
 #ifdef __LP64__
 #define mach_hdr struct mach_header_64
 #define sgmt_cmd struct segment_command_64
